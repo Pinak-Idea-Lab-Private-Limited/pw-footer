@@ -30,13 +30,21 @@
 
 
 
-    .fa-s-bullhorn {
+    .fa-s-bullhorn,.fa-s-phone, .fa-s-envelope {
       font-family: "fa-solid";
       font-style:normal;
     }
 
     .fa-s-bullhorn::before {
       content: "\f0a1";
+    }
+
+    .fa-s-phone::before{
+      content: "\f095";
+    }
+
+    .fa-s-envelope::before{
+      content: "\f0e0";
     }
   </style>
 </head>
@@ -66,7 +74,7 @@
         <div class="md:ps-8 font-bold  lg:border-e-2 mt-4 md:mt-0 flex items-center">
           <div class="border-2 rounded-full px-2.5 py-1 me-4 text-lg">
 
-            <i class="fa-solid fa-phone "></i>
+            <i class="fa-s-phone"></i>
           </div>
           <div>
             <div class="text-slate-600">
@@ -80,7 +88,7 @@
         </div>
         <div class="md:ps-8 font-bold flex items-center mt-4 lg:mt-0">
           <div class="border-2 rounded-full px-2.5 py-1 me-4 text-lg">
-            <i class="fa-solid fa-envelope "></i>
+            <i class="fa-s-envelope"></i>
           </div>
           <div>
             <div class="text-slate-600">
